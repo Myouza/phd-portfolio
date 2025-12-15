@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Xuanlin Zhu | Computational Media Portfolio</title>
+    <style>
+        :root { --primary: #2c3e50; --accent: #2980b9; --bg: #fdfdfd; --text: #333; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--text); max-width: 960px; margin: 0 auto; padding: 40px 20px; background: var(--bg); }
+        header { border-bottom: 2px solid var(--primary); padding-bottom: 30px; margin-bottom: 50px; }
+        h1 { margin: 0; font-size: 2.8em; color: var(--primary); letter-spacing: -1px; }
+        .subtitle { color: #7f8c8d; font-size: 1.3em; margin-top: 10px; font-weight: 300; }
+        .meta-links { margin-top: 20px; font-weight: 600; }
+        .meta-links a { color: var(--accent); text-decoration: none; margin-right: 20px; }
+        
+        section { margin-bottom: 60px; }
+        h2 { border-left: 5px solid var(--accent); padding-left: 15px; margin-bottom: 30px; color: var(--primary); font-size: 1.8em; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; }
+        
+        .card { background: white; border: 1px solid #e1e4e8; border-radius: 6px; padding: 25px; transition: all 0.2s ease; display: flex; flex-direction: column; }
+        .card:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); border-color: var(--accent); }
+        .card h3 { margin-top: 0; margin-bottom: 10px; color: var(--primary); font-size: 1.2em; }
+        .tag { display: inline-block; background: #f1f8ff; color: var(--accent); padding: 2px 8px; border-radius: 12px; font-size: 0.75em; font-weight: 600; margin-bottom: 12px; }
+        .desc { font-size: 0.9em; color: #555; flex-grow: 1; margin-bottom: 15px; }
+        .btn { display: inline-block; text-decoration: none; background: var(--primary); color: white; padding: 8px 15px; border-radius: 4px; font-size: 0.85em; text-align: center; font-weight: 600; }
+        .btn:hover { background: var(--accent); }
+
+        .theory-block { background: #f8f9fa; border-left: 4px solid #6c757d; padding: 20px; margin-bottom: 20px; }
+        .theory-title { font-weight: bold; color: #2c3e50; font-size: 1.1em; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Xuanlin Zhu</h1>
+    <div class="subtitle">Research Portfolio: Mathematics, Systems & Critical Theory</div>
+    <div class="meta-links">
+        <a href="assets/CV.pdf" target="_blank">📄 Curriculum Vitae</a>
+        <a href="mailto:xzhu09@wm.edu">✉️ xzhu09@wm.edu</a>
+        <a href="https://github.com/YOUR_GITHUB">GitHub</a>
+    </div>
+</header>
+
+<section>
+    <h2>I. Methodological & Critical Research</h2>
+    
+    <div class="theory-block">
+        <div class="theory-title">Methodological Note: Stability of Semantic Transport</div>
+        <p>Deriving formal Lipschitz bounds for Word Mover's Distance to establish a "safe interpretation zone" for algorithmic literary criticism.</p>
+        <a href="assets/StabilityNote.pdf" style="color: var(--accent); font-weight: bold;">View Proofs & Experiments &rarr;</a>
+    </div>
+
+    <div class="theory-block">
+        <div class="theory-title">Monograph: Epistemological Foundations of Geometric Models</div>
+        <p>A comparative analysis of Poincaré’s Conventionalism, arguing that simulation parameters (refraction/temperature) dictate spatial axioms in game engines.</p>
+        <a href="assets/PoincareMonograph.pdf" style="color: var(--accent); font-weight: bold;">View Monograph &rarr;</a>
+    </div>
+
+    <div class="theory-block">
+        <div class="theory-title">Essay: For a New Kind of Game</div>
+        <p>Critical writing sample analyzing the intersection of Walter Benjamin's aesthetic theory and procedural rhetoric.</p>
+        <a href="assets/CriticalGameEssay.pdf" style="color: var(--accent); font-weight: bold;">View Essay &rarr;</a>
+    </div>
+    
+    <div class="theory-block">
+        <div class="theory-title">Pilot Study: Sociolinguistic Perception of AI</div>
+        <p>Mixed-methods study (IRB-approved) investigating how punctuation markers like the em-dash influence user perception of "machine voice."</p>
+        <a href="assets/SociolingPilot.pdf" style="color: var(--accent); font-weight: bold;">View Research Summary &rarr;</a>
+    </div>
+</section>
+
+<section>
+    <h2>II. Systems Engineering & Algorithms</h2>
+    <div class="grid">
+        
+        <div class="card">
+            <span class="tag">SYSTEMS ARCHITECTURE</span>
+            <h3>Cluster API Provider "Slinky"</h3>
+            <div class="desc">A converged infrastructure architecture bridging Slurm and Kubernetes using the Composite Pattern to reduce idle resource waste.</div>
+            <a href="assets/SlinkyArch.pdf" class="btn">View Architecture</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">OPTIMIZATION</span>
+            <h3>Fast Inverse Square Root Optimization</h3>
+            <div class="desc">Heuristic optimization of bit-level floating point constants using Differential Evolution. (Poster for SIAM NNP).</div>
+            <a href="assets/FastInverseSquare.pdf" class="btn">View Poster/Paper</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">HARDWARE</span>
+            <h3>Eurorack & CPU Engineering</h3>
+            <div class="desc">Documentation of a custom Zynthian-based Eurorack module and a homebrew CPU architecture.</div>
+            <a href="assets/HardwareSystems.pdf" class="btn">View Hardware Photos</a>
+        </div>
+        
+        <div class="card">
+            <span class="tag">NLP / ML</span>
+            <h3>TinyLite: Pruned BERT</h3>
+            <div class="desc">Research manuscript on pruning BERT-Tiny for edge devices, achieving ~80% FLOPs reduction.</div>
+            <a href="assets/TinyLitePaper.pdf" class="btn">View Manuscript</a>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>III. Game Design & Creative Practice</h2>
+    <div class="grid">
+        
+        <div class="card">
+            <span class="tag">GAME DESIGN</span>
+            <h3>Game Design Document (GDD)</h3>
+            <div class="desc">A 30-page formal specification for a narrative-driven game system, detailing mechanics and narrative branching.</div>
+            <a href="assets/GameDesignDoc.pdf" class="btn">View GDD</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">PUZZLE DESIGN</span>
+            <h3>"Double Major" Puzzle</h3>
+            <div class="desc">A logic/cryptography puzzle designed for the "Puzzle Hunt" format, exploring themes of academic intersectionality.</div>
+            <a href="assets/PuzzleDesign.pdf" class="btn">View Puzzle</a>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Xuanlin Zhu. Prepared for PhD Admissions Committee Review.</p>
+</footer>
+
+</body>
+</html>
