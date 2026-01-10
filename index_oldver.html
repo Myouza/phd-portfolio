@@ -26,13 +26,6 @@
         .desc { font-size: 0.9em; color: #555; flex-grow: 1; margin-bottom: 15px; }
         .btn { display: inline-block; text-decoration: none; background: var(--primary); color: white; padding: 8px 15px; border-radius: 4px; font-size: 0.85em; text-align: center; font-weight: 600; }
         .btn:hover { background: var(--accent); }
-        
-        .btn-group { display: flex; flex-wrap: wrap; gap: 8px; }
-        .btn-group .btn { flex: 1; min-width: 80px; padding: 6px 10px; font-size: 0.8em; }
-        .btn-secondary { background: #6c757d; }
-        .btn-secondary:hover { background: #5a6268; }
-        .btn-outline { background: transparent; border: 2px solid var(--primary); color: var(--primary); }
-        .btn-outline:hover { background: var(--primary); color: white; }
 
         .theory-block { background: #f8f9fa; border-left: 4px solid #6c757d; padding: 20px; margin-bottom: 20px; }
         .theory-title { font-weight: bold; color: #2c3e50; font-size: 1.1em; }
@@ -61,7 +54,7 @@
 
     <div class="theory-block">
         <div class="theory-title">Monograph: Epistemological Foundations of Geometric Models</div>
-        <p>A comparative analysis of Poincaré's Conventionalism, arguing that simulation parameters (refraction/temperature) dictate spatial axioms in game engines.</p>
+        <p>A comparative analysis of Poincaré’s Conventionalism, arguing that simulation parameters (refraction/temperature) dictate spatial axioms in game engines.</p>
         <a href="assets/PoincareMonograph.pdf" style="color: var(--accent); font-weight: bold;">View Monograph &rarr;</a>
     </div>
 
@@ -92,22 +85,8 @@
         <div class="card">
             <span class="tag">OPTIMIZATION</span>
             <h3>Fast Inverse Square Root Optimization</h3>
-            <div class="desc">Automated derivation of approximate arithmetic constants via Differential Evolution. Characterizes the "fractal floor" error landscape and achieves 24% improvement over analytical baselines. (JMM 2026 Talk)</div>
-            <div class="btn-group">
-                <a href="https://github.com/Myouza/fast-inverse-sqrt-research" class="btn btn-outline" target="_blank">Code</a>
-                <a href="assets/FastInverseSlides.pdf" class="btn btn-secondary">Slides</a>
-                <a href="assets/FastInverseManuscript.pdf" class="btn">Paper</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <span class="tag">DATA-ORIENTED DESIGN</span>
-            <h3>Columnar Game Logic</h3>
-            <div class="desc">Empirical validation of DataFrame architectures (NumPy, Polars, Apache Arrow) for real-time simulation. Achieves 500K entities at 60 FPS using a Stratified Architecture that bridges data science tooling with game engine requirements.</div>
-            <div class="btn-group">
-                <a href="https://github.com/Myouza/columnar-game-logic" class="btn btn-outline" target="_blank">Code</a>
-                <a href="assets/ColumnarGameLogic.pdf" class="btn">Research Brief</a>
-            </div>
+            <div class="desc">Heuristic optimization of bit-level floating point constants using Differential Evolution. (Poster for SIAM NNP / JMM Talk).</div>
+            <a href="assets/FastInverseSquare.pdf" class="btn">View Poster/Paper</a>
         </div>
 
         <div class="card">
